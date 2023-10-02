@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "BetaBreak",
   description: "Find the Beta in Breaking",
+  base: '/BetaBreak/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
