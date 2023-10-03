@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "BetaBreak"
+  name: "🤸 BetaBreak"
   text: "Beta in Breaking"
   tagline: 
   actions:
     - theme: brand
       text: Guide
-      link: /guide
+      link: /guide/WhatBetaBreak
     - theme: brand
       text: Reference
-      link: /reference
+      link: /reference/ReferenceOverview
     - theme: alt
       text: Beta
       link: /Beta
