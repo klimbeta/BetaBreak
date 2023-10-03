@@ -5,6 +5,7 @@ export default defineConfig({
   title: "BetaBreak",
   description: "Find the Beta in Breaking",
   base: '/BetaBreak/',
+  ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
