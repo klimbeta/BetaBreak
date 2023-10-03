@@ -2,5 +2,5 @@
 
 ## [Round Robin](/reference/CompType/RoundRobin)
 
-## [Knockout](/reference/CompType/Knockout)
+## [Battle](/reference/CompType/Battle)
 
