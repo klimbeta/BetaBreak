@@ -1,11 +1,30 @@
-# What is this BetaComp Website?
+# What is this BetaBreak Website?
+
+## Foreword
+This Breaking Rules & Regulations Manual (BRRM) contains the primary rules, provisions and
+requirements for planning, organizing and operating WDSF Breaking competitions. The
+BRRM shall be the central document for all WDSF Breaking events and consequently the
+Preamble and all items (A.1 to A.6) and subitems of section “A. General” of the WDSF
+Competition Rules apply. (Appendix IX)
+
+It is important to note that competition formats for Breaking do not only consist of 1vs1 and
+crew competitions. The sizes of the competing sides can be compatible so that, for example,
+3vs3, 4vs4 and also entire crew competitions with a varied and uneven number of crew
+members are possible. The choice of the mentioned categories is not exhaustive since there
+are many other popular formats that exist.
+
+## Evolution of Content
+This is the current version of the BRRM (Version 5), published as of March 2023. The World
+DanceSport Federation (WDSF) reserves the right to modify this document and the rules
+reflected herein.
+
 
 ## Analogous Websites in Other Sports
 
 
 ## Guide and Reference of All the Elements of A Sport
 
-::: tip Climbing
+::: tip Breaking
 ![BetaComp](/BetaComp_00.png)
 - https://klimbeta.github.io/BetaComp/
 
@@ -65,4 +84,4 @@ Vue was chosen for BetaComp for a few reasons.
 
 ## Multilingual
 
-Once BetaBreak has enough resources, the BetaBreak website will be translated into French, German, Spanish, Japanese, and Korean to serve countries with the largest Climber populations.
+Once BetaBreak has enough resources, the BetaBreak website will be translated into French, German, Spanish, Japanese, and Korean to serve countries with the largest Breaker populations.

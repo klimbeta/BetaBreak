@@ -25,7 +25,7 @@ export default defineConfig({
     sidebar: {
       '/guide/': sidebarGuide(),
       '/reference/': sidebarReference(),
-      '/tests/': sidebarTests(),
+      // '/tests/': sidebarTests(),
       '/development/': sidebarDevelopment(),
       '/judging/': sidebarJudging(),
     },
@@ -78,20 +78,13 @@ function sidebarGuide() {
       text: 'What ❔',
       collapsed: true,
       items: [
+        { text: '🔷 What is Breaking?', link: '/guide/What/WhatBreaking' },
         { text: '🔷 What is Beta?', link: '/guide/What/WhatBeta' },
-        { text: '🔷 What is a BetaComp?', link: '/guide/What/WhatBetaComp' },
         { text: '🔷 What is this BetaComp Website?', link: '/guide/What/WhatBetaCompWebsite' },
 
       ]
     },
-    {
-      text: 'Why ❔',
-      collapsed: true,
-      items: [
-        { text: '❔ How does BetaComp add Value to Climbers?', link: '/guide/Why/AddValue' },
-
-      ]
-    },
+    { text: '🤸‍♀️ Go to Reference', link: '/reference/ReferenceOverview' },
   ]
 }
 
@@ -99,40 +92,79 @@ function sidebarReference() {
   return [
     { text: 'Go to Guide', link: '/guide/What/WhatBetaComp' },
     {
-      text: '🔷 Competition Types',
+      text: '🤸‍♀️ Competition Types',
       collapsed: true,
       items: [
-        { text: '🔷 Overview', link: '/reference/CompType/Overview' },
-        { text: '🔷 Route+ Comp', link: '/reference/CompType/RouteComp' },
-        { text: '🔷 Move+ Comp', link: '/reference/CompType/MoveComp' },
-        { text: '🔷 BetaWall', link: '/reference/CompType/BetaWall' },
-        { text: '🔷 BetaBattle', link: '/reference/CompType/BetaBattle' },
-        { text: '🔷 ForcedBeta', link: '/reference/CompType/ForcedBeta' },
-        { text: '🔷 MetaBetaComp', link: '/reference/CompType/MetaBetaComp' },
-        { text: '🔷 BetaDance', link: '/reference/CompType/BetaDance' },
-        { text: '🔷 Team BetaComp', link: '/reference/CompType/TeamBetaComp' },
+        { text: '🤸‍♀️ Overview', link: '/reference/CompType/Overview' },
+        { text: '🤸‍♀️ Round Robin', link: '/reference/CompType/RoundRobin' },
+        { text: '🤸‍♀️ Knockout', link: '/reference/CompType/Knockout' },
 
       ]
-    },]
-}
-
-function sidebarTests() {
-  return [
+    },
     {
-      text: 'Beta Tests',
+      text: '🔷 Beta',
       collapsed: true,
       items: [
-        { text: 'Beta Test 01', link: '/tests/TestsOverview' },
-        { text: 'Beta Test 02', link: '/tests/TestsOverview' },
-        { text: 'Beta Test 03', link: '/tests/TestsOverview' },
-        { text: 'Beta Test 04', link: '/tests/TestsOverview' },
-        { text: 'Beta Test 05', link: '/tests/TestsOverview' },
-        { text: 'Beta Test 06', link: '/tests/TestsOverview' },
-        { text: 'Beta Test 07', link: '/tests/TestsOverview' },
+        { text: '🔷 Overview', link: '/reference/Beta/BetaOverview' },
+        { text: '🔷 What is the Beta System?', link: '/reference/Beta/WhatBetaSystem' },
 
       ]
-    },]
+    },
+    {
+      text: '🟠 Move',
+      collapsed: true,
+      items: [
+        { text: '🟠 Overview', link: '/reference/Move/Overview' },
+
+      ]
+    },
+    {
+      text: '🔺 Route',
+      collapsed: true,
+      items: [
+        { text: '🔺 Overview', link: '/reference/Route/Overview' },
+
+      ]
+    },
+    {
+      text: '🟩 Environment',
+      collapsed: true,
+      items: [
+        { text: '🟩 Overview', link: '/reference/Environment/Overview' },
+
+      ]
+    },
+    {
+      text: '💜 Neuro',
+      collapsed: true,
+      items: [
+        { text: '💜 Overview', link: '/reference/Neuro/Overview' },
+
+      ]
+    },
+    { text: '🤸‍♀️ Glossary', link: '/reference/Glossary' },
+    { text: '🤸‍♀️ Go to Reference', link: '/reference/ReferenceOverview' },
+
+  ]
 }
+
+// function sidebarTests() {
+//   return [
+//     {
+//       text: 'Beta Tests',
+//       collapsed: true,
+//       items: [
+//         { text: 'Beta Test 01', link: '/tests/TestsOverview' },
+//         { text: 'Beta Test 02', link: '/tests/TestsOverview' },
+//         { text: 'Beta Test 03', link: '/tests/TestsOverview' },
+//         { text: 'Beta Test 04', link: '/tests/TestsOverview' },
+//         { text: 'Beta Test 05', link: '/tests/TestsOverview' },
+//         { text: 'Beta Test 06', link: '/tests/TestsOverview' },
+//         { text: 'Beta Test 07', link: '/tests/TestsOverview' },
+
+//       ]
+//     },]
+// }
 
 function sidebarDevelopment() {
   return [

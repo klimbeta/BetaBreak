@@ -4,25 +4,25 @@ layout: home
 
 hero:
   name: "🤸 BetaBreak"
-  text: "Beta in Breaking"
+  text: "The Beta of Breaking"
   tagline: 
   actions:
     - theme: brand
       text: Guide
-      link: /guide/WhatBetaBreak
+      link: /guide/What/WhatBreaking
     - theme: brand
       text: Reference
       link: /reference/ReferenceOverview
     - theme: alt
       text: Beta
-      link: /Beta
+      link: /reference/Beta/WhatBetaSystem
 
 features:
   - title: 💃
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 
   - title: 🛠
     details: Last Updated Oct 2, 2023
   - title: 🕺
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 
 ---
 
